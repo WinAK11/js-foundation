@@ -1,0 +1,68 @@
+:root {
+    --primary-light: #ddd;
+    --primary-dark: #222831;
+    --secondary-dark: #393e46;
+    --secondary-dark-hover: #4a4f57;
+    --secondary-dark-active: #5b5f68;
+    --header: #111720;
+    --primary-yellow: #fac650;
+}
+body {
+    color: white;
+    font-family: "Press Start 2P", cursive;
+    height: 100vh;
+}
+header h1 {
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    color: var(--primary-yellow);
+}
+header {
+    padding: 50px 0;
+    background-color: var(--header);
+}
+main {
+    padding-top: 10px;
+    background-color: var(--primary-dark);
+    padding-bottom: 50px;
+}
+main h2,
+h3 {
+    text-align: center;
+    color: var(--primary-light);
+}
+.sign {
+    font-size: 80px;
+}
+.score {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+.score--container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+main .btn {
+    width: 160px;
+    height: 160px;
+}
+.modal-content {
+    text-align: center;
+    color: var(--primary-yellow);
+    background-color: rgb(34, 40, 49);
+}
+
+footer p {
+    color: var(--primary-yellow);
+    background-color: var(--header);
+    padding-top: 20px;
+    height: 100%;
+}
+.modal-header {
+    border-bottom: 2px solid var(--primary-yellow);
+}
+.modal-footer {
+    border-top: 2px solid var(--primary-yellow);
+}
